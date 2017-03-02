@@ -1,5 +1,4 @@
-# Angular2
-#Angular2 Notes
+# Angular2 Notes
 
 ##Command Line
 - tsc filename.ts -> filename.js
@@ -21,7 +20,7 @@
 	- var test = cool; 'this is ' + test -> `this is ${cool}`;
 
 ##Fat Arrow functions
-```
+```javascript
 	setTimeout(function(){
 		console.log('test');
 	}, 1000);
@@ -64,7 +63,7 @@
 ```
 
 ##Destructuring
-```
+```javascript
 	const obj = {first: 'Dan', last: "Blake"};
 	const {first: f, last: l} = obj;
 	console.log(f); //Dan
