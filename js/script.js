@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+//import square, {cow as dog} from './utils';
+const utils = require("./utils");
+console.log(utils.square(3));
+utils.cow();
+let decimal = 6;
+let done = false;
+let color = "blue";
+let list = [1, 2, 3];
+let list2 = [1, 2, 3];
+let fun = () => console.log('test');
+var Direction;
+(function (Direction) {
+    Direction[Direction["Up"] = 0] = "Up";
+    Direction[Direction["Down"] = 1] = "Down";
+    Direction[Direction["Left"] = 2] = "Left";
+    Direction[Direction["Right"] = 3] = "Right";
+})(Direction || (Direction = {}));
+let go;
+go = Direction.Up;
